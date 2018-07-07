@@ -10,8 +10,9 @@ http://samtools.sourceforge.net/pileup.shtml
 
 And outputs only variants in vcf file format.
 
-Arguments for running script
-| Argument        | Description           |
+Arguments for running script:
+
+| Argument | Description |
 | ------------- |-------------|
 |-m, --mpileup 					  | input file in pileup format |
 |-t, --threads 					  | number of threads to run in parallel, default is 4 |
