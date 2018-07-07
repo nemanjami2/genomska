@@ -11,10 +11,12 @@ http://samtools.sourceforge.net/pileup.shtml
 And outputs only variants in vcf file format.
 
 Arguments for running script
--m, --mpileup 					  | input file in pileup format
--t, --threads 					  | number of threads to run in parallel, default is 4
--l, --lines   					  | number of lines to be processed in one chunk, default is 1000
--b, --binomial-distribution-limit | limit in binomial distribution, default is 0.5
+| Argument        | Description           |
+| ------------- |-------------|
+|-m, --mpileup 					  | input file in pileup format |
+|-t, --threads 					  | number of threads to run in parallel, default is 4 |
+|-l, --lines   					  | number of lines to be processed in one chunk, default is 1000 |
+|-b, --binomial-distribution-limit | limit in binomial distribution, default is 0.5 |
 
 ```
 python3 main.py -m ../merged-normal.mpileup                    
