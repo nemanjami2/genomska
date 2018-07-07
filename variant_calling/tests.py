@@ -1,4 +1,4 @@
-from variant_caller.main import process_line
+from variant_calling.main import process_line
 
 
 # test no variant
