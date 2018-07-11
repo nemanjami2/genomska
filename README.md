@@ -8,7 +8,7 @@ Script expect input file in pileup format described here:
 
 http://samtools.sourceforge.net/pileup.shtml
 
-And outputs only variants in vcf file format.
+And outputs only variants in vcf file format on system standard output.
 
 Arguments for running script:
 
@@ -20,7 +20,7 @@ Arguments for running script:
 |-b, --binomial-distribution-limit | limit in binomial distribution, default is 0.5 |
 
 ```
-python3 main.py -m ../merged-normal.mpileup                    
+python3 main.py -m test.mpileup                  
 ```
 
 ### Prerequisites
@@ -38,6 +38,11 @@ Test can be ran with pytest module
 ```
 python3 -m pytest tests.py
 ```
+
+## Presentations
+
+Youtube presentation: https://www.youtube.com/watch?v=nufh9DOhOCo&feature=youtu.be
+
 
 ## Authors
 
